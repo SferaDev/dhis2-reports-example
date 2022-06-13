@@ -1,19 +1,19 @@
-import { createGlobalStyle } from "styled-components";
+import { Global, css } from "@emotion/react";
 import Example from "./reports/Example";
 
 const MyApp = () => (
   <>
-    <GlobalStyle />
+    <Global
+      styles={css`
+        body {
+          header {
+            display: none;
+          }
+        }
+      `}
+    />
     <Example />
   </>
 );
 
 export default MyApp;
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    header {
-        display: none;
-    }
-  }
-`;

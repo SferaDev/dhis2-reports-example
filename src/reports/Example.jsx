@@ -1,6 +1,6 @@
 import { DataQuery } from "@dhis2/app-runtime";
 import i18n from "@dhis2/d2-i18n";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 const query = {
   me: { resource: "me" },

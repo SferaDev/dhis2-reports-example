@@ -11,12 +11,15 @@
     "deploy": "d2-app-scripts deploy"
   },
   "devDependencies": {
-    "@dhis2/cli-app-scripts": "^9.0.1",
-    "@types/styled-components": "^5.1.25"
+    "@dhis2/cli-app-scripts": "^9.0.1"
   },
   "dependencies": {
     "@dhis2/app-runtime": "^3.4.4",
-    "gulp-header": "^2.0.9",
-    "styled-components": "^5.3.5"
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/lab": "^5.0.0-alpha.85",
+    "@mui/material": "^5.8.3",
+    "@mui/styles": "^5.8.3",
+    "gulp-header": "^2.0.9"
   }
 }
